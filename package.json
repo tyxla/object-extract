@@ -1,0 +1,43 @@
+{
+  "name": "object-extract",
+  "version": "0.1.0",
+  "description": "Extract object key-value pairs as variables to a specified context.",
+  "main": "index.js",
+  "dependencies": {
+
+  },
+  "devDependencies": {
+    "tape": "^4.2.2"
+  },
+  "scripts": {
+    "test": "tape test.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/tyxla/object-extract"
+  },
+  "keywords": [
+    "object",
+    "key",
+    "value",
+    "extract",
+    "pair",
+    "var",
+    "variable",
+    "context",
+    "import"
+  ],
+  "author": {
+    "name": "Marin Atanasov",
+    "email": "contact@marinatanasov.com",
+    "url": "http://marinatanasov.com"
+  },
+  "contributors": [
+    "tyxla"
+  ],
+  "bugs": {
+    "url": "https://github.com/tyxla/object-extract/issues"
+  },
+  "homepage": "https://github.com/tyxla/object-extract",
+  "license": "MIT"
+}
