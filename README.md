@@ -2,17 +2,17 @@
 
 Extract object key-value pairs as variables to a specified context.
 
-This will assign each property of the specified object as a variable in the specified context.
-
-When assigning, the property key is used for the variable name, and the property value is used for the variable value.
-
-If context is not specified, variables will be assigned to the global scope.
-
 ```
 npm install object-extract
 ```
 
 [![Build Status](https://travis-ci.org/tyxla/object-extract.svg)](https://travis-ci.org/tyxla/object-extract)
+
+## About
+
+This will assign each property of the specified object as a variable in the specified context.
+
+When assigning, the property key is used for the variable name, and the property value is used for the variable value.
 
 ## Syntax
 
@@ -26,7 +26,7 @@ This is the object that you wish to extract to the specified context.
 
 #### context
 
-This is the context you wish to extract the object to.
+This is the context you wish to extract the object to. If not specified, variables will be assigned to the global scope.
 
 ## Usage
 
